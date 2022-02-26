@@ -1,18 +1,22 @@
-# @weiland's prettier config
+# [@weiland](https://github.com/weiland)'s prettier config
+
+Prettier config for my projects.
 
 ## Install the npm package
+
+Using `pnpm`:
 
 ```command
 pnpm add -D @weiland/prettier-config
 ```
 
-or with _yarn_:
+or with using `yarn` (or `npm`):
 
 ```command
 yarn add -D @weiland/prettier-config
 ```
 
-## Add to `package.json`
+## Add `prettier` key to the `package.json`
 
 ```json
 {
@@ -26,4 +30,4 @@ or create a `.prettierrc.json` file with following contents:
 "@weiland/prettier-config"
 ```
 
-Also make sure to have `prettier` installed!
+Also make sure to have installed `prettier` in your project or on your machine.
