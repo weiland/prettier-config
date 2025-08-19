@@ -10,6 +10,7 @@ trim_trailing_whitespace = true
 
 [**{.js, .json}]
 indent_style = tab
+# usually, when using tabs, let the user configure `tab_width` in their editors.
 # tab_width = 4
 
 [*.md]
