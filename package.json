@@ -3,6 +3,10 @@
 	"version": "2.0.4",
 	"type": "module",
 	"description": "@weiland's prettier config.",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/weiland/prettier-config.git"
+	},
 	"main": "index.js",
 	"types": "index.d.ts",
 	"files": [
