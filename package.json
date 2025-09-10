@@ -1,6 +1,6 @@
 {
 	"name": "@weiland/prettier-config",
-	"version": "2.0.4",
+	"version": "2.0.5",
 	"type": "module",
 	"description": "@weiland's prettier config.",
 	"repository": {
