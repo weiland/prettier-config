@@ -4,13 +4,28 @@
 	"type": "module",
 	"description": "@weiland's prettier config.",
 	"main": "index.js",
+	"types": "index.d.ts",
 	"files": [
-		"index.js"
+		"index.js",
+		"index.d.ts"
 	],
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+	"publishConfig": {
+		"access": "public",
+		"provenance": true
 	},
-	"keywords": ["prettier", "config", "formatting"],
+	"scripts": {
+		"format": "prettier --write .",
+		"test": "prettier --check ."
+	},
+	"keywords": [
+		"prettier",
+		"config",
+		"formatting"
+	],
 	"author": "Pascal Weiland",
-	"license": "ISC"
+	"license": "ISC",
+	"devDependencies": {
+		"prettier": "^3.6.2"
+	},
+	"prettier": "./index.js"
 }

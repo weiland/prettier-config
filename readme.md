@@ -2,7 +2,6 @@
 
 Prettier config for my projects.
 
-
 ## Install the npm package
 
 ```bash
@@ -19,12 +18,11 @@ npm add --dev @weiland/prettier-config
 bun add --dev @weiland/prettier-config
 ```
 
-
 ## Add `prettier` key to the `package.json`
 
 ```json
 {
-  "prettier": "@weiland/prettier-config"
+	"prettier": "@weiland/prettier-config"
 }
 ```
 
@@ -41,11 +39,11 @@ import weilandPrettierConfig from '@weiland/prettier-config'
  * @type {import('prettier').Config}
  */
 const config = {
-  ...weilandPrettierConfig,
-  semi: false,
-};
+	...weilandPrettierConfig,
+	semi: false,
+}
 
-export default config;
+export default config
 ```
 
 Also make sure to have installed `prettier` in your project or on your machine.
